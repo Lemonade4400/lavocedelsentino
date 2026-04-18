@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contatti — La Voce del Sentino</title>
+  <meta name="description" content="Scrivici per ricevere un preventivo su misura. Casa vacanze La Voce del Sentino, Genga (AN)." />
+  <meta name="theme-color" content="#1C241E" />
+  <link rel="icon" type="image/png" href="images/LA-VOCE-DEL-SENTINO-2.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="nav" role="banner">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-mark">LVS</span>
+        <span>La Voce del Sentino<small>Casa Vacanze · Genga (AN)</small></span>
+      </a>
+      <nav aria-label="Principale">
+        <ul class="nav__links">
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="la-casa.html">La casa</a></li>
+          <li><a href="le-camere.html">Le camere</a></li>
+          <li><a href="contatti.html" class="is-active">Contatti</a></li>
+        </ul>
+      </nav>
+      <a href="contatti.html" class="nav__cta">Prenota</a>
+      <button class="nav__toggle" aria-label="Apri menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- SUB HERO -->
+  <section class="subhero">
+    <div class="subhero__bg"><img src="images/147.jpg" alt="Il ponte romanico di San Vittore al tramonto" /></div>
+    <div class="container subhero__inner">
+      <span class="subhero__tag reveal">Contatti</span>
+      <h1 class="subhero__title reveal" data-delay="1">Un <em>preventivo su misura</em><br/>per il vostro momento speciale.</h1>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="section-head section-head--stack">
+        <span class="eyebrow center reveal">Info Point</span>
+        <p class="lead reveal" data-delay="1" style="margin-top:1rem;">Ogni stagione regala emozioni diverse qui a Genga, e anche i nostri soggiorni cambiano con il tempo. Contattateci per scoprire il prezzo su misura per il vostro momento speciale.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT + FORM -->
+  <section class="section" style="padding-top:2rem;">
+    <div class="container">
+      <div class="contact">
+        <div class="contact__side reveal">
+          <span class="eyebrow">Scrivici</span>
+          <h2 class="h-section" style="margin-top:1rem;">Rispondiamo a ogni<br/>richiesta <em>personalmente</em>.</h2>
+
+          <div class="contact__info">
+            <div>
+              <span class="label">Telefono</span>
+              <div class="value"><a href="tel:+393384430460">+39 338 44 30 460</a></div>
+            </div>
+            <div>
+              <span class="label">Prenotazioni</span>
+              <div class="value"><a href="mailto:prenotazioni@lavocedelsentino.com">prenotazioni@lavocedelsentino.com</a></div>
+            </div>
+            <div>
+              <span class="label">Informazioni</span>
+              <div class="value"><a href="mailto:informazioni@lavocedelsentino.com">informazioni@lavocedelsentino.com</a></div>
+            </div>
+            <div>
+              <span class="label">Indirizzo</span>
+              <div class="value">Via San Vittore, 5<br/>60040 Genga (AN)</div>
+            </div>
+          </div>
+        </div>
+
+        <form class="form reveal" data-delay="1" data-contact-form aria-label="Modulo di richiesta informazioni">
+          <div class="form__row">
+            <div class="form__field">
+              <label class="form__label" for="name">Nome e cognome</label>
+              <input class="form__input" id="name" name="name" type="text" required autocomplete="name" />
+            </div>
+            <div class="form__field">
+              <label class="form__label" for="email">Email</label>
+              <input class="form__input" id="email" name="email" type="email" required autocomplete="email" />
+            </div>
+            <div class="form__field">
+              <label class="form__label" for="arrival">Arrivo</label>
+              <input class="form__input" id="arrival" name="arrival" type="date" />
+            </div>
+            <div class="form__field">
+              <label class="form__label" for="departure">Partenza</label>
+              <input class="form__input" id="departure" name="departure" type="date" />
+            </div>
+            <div class="form__field form__field--full">
+              <label class="form__label" for="guests">Numero ospiti</label>
+              <select class="form__select" id="guests" name="guests">
+                <option value="1">1 ospite</option>
+                <option value="2" selected>2 ospiti</option>
+                <option value="3">3 ospiti</option>
+                <option value="4">4 ospiti</option>
+              </select>
+            </div>
+            <div class="form__field form__field--full">
+              <label class="form__label" for="message">Messaggio</label>
+              <textarea class="form__textarea" id="message" name="message" rows="4" placeholder="Ditemi qualcosa del vostro soggiorno ideale…"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn--primary form__submit">Invia richiesta <span class="arrow">→</span></button>
+          <p class="form__note">Inviando questo modulo accettate il trattamento dei dati come descritto nella <a href="privacy.html">Privacy Policy</a>.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="section-head">
+        <div class="reveal"><span class="eyebrow">Come arrivare</span></div>
+        <div class="section-head__right reveal" data-delay="1">
+          <h2 class="h-section">Via San Vittore, 5 — <em>Genga (AN)</em>.</h2>
+        </div>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe
+          title="Mappa — La Voce del Sentino"
+          src="https://www.google.com/maps?q=Via+San+Vittore+5+Genga+AN&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <p class="footer__brand">La Voce del Sentino<small>Casa Vacanze</small></p>
+          <p class="footer__tagline">Un angolo di pace tra relax, acqua e roccia, ai piedi dell'Abbazia di San Vittore.</p>
+        </div>
+        <div>
+          <h4>Esplora</h4>
+          <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="la-casa.html">La casa</a></li>
+            <li><a href="le-camere.html">Le camere</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contatti</h4>
+          <address>
+            60040 Genga (AN)<br/>
+            Via San Vittore, 5<br/>
+            <a href="tel:+393384430460">+39 338 44 30 460</a><br/>
+            <a href="mailto:informazioni@lavocedelsentino.com">informazioni@lavocedelsentino.com</a>
+          </address>
+        </div>
+        <div>
+          <h4>Legale</h4>
+          <ul>
+            <li>CIN IT042020C2ENSKRE8V</li>
+            <li>CIR 04202-LOC-00023</li>
+            <li style="margin-top:0.9rem;"><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year></span> La Voce del Sentino</span>
+        <span>Marche · Italia</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
