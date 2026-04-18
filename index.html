@@ -3,13 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>La Voce del Sentino — Casa Vacanze a Genga, Marche</title>
-  <meta name="description" content="Casa vacanze nel cuore delle Marche, a pochi passi dalle Grotte di Frasassi. Un angolo di pace accanto al fiume Sentino, tra relax, acqua e roccia." />
+  <script>
+    (function(){try{var s=['it','en'],l=localStorage.getItem('lvs-lang');if(!s.includes(l)){var n=(navigator.language||'it').slice(0,2).toLowerCase();l=s.includes(n)?n:'it';}if(l!=='it')document.documentElement.setAttribute('data-lang-pending',l);document.documentElement.lang=l;}catch(e){}})();
+  </script>
+  <title data-i18n="home.meta.title">La Voce del Sentino — Casa Vacanze a Genga, Marche</title>
+  <meta name="description" data-i18n-attr="content=home.meta.description" content="Casa vacanze nel cuore delle Marche, a pochi passi dalle Grotte di Frasassi. Un angolo di pace accanto al fiume Sentino, tra relax, acqua e roccia." />
   <meta name="theme-color" content="#1C241E" />
-  <meta property="og:title" content="La Voce del Sentino — Casa Vacanze" />
-  <meta property="og:description" content="Un angolo di pace accanto al fiume Sentino, a 10 minuti dalle Grotte di Frasassi." />
+  <meta property="og:title" data-i18n-attr="content=home.meta.ogTitle" content="La Voce del Sentino — Casa Vacanze" />
+  <meta property="og:description" data-i18n-attr="content=home.meta.ogDescription" content="Un angolo di pace accanto al fiume Sentino, a 10 minuti dalle Grotte di Frasassi." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="images/1.jpg" />
+  <link rel="alternate" hreflang="it" href="index.html" />
+  <link rel="alternate" hreflang="en" href="index.html" />
   <link rel="icon" type="image/png" href="images/LA-VOCE-DEL-SENTINO-2.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,23 +26,27 @@
   <!-- NAV -->
   <header class="nav" role="banner">
     <div class="container nav__inner">
-      <a href="index.html" class="nav__logo" aria-label="La Voce del Sentino — home">
+      <a href="index.html" class="nav__logo" data-i18n-attr="aria-label=nav.logoAria" aria-label="La Voce del Sentino — home">
         <span class="nav__logo-mark">LVS</span>
         <span>
-          La Voce del Sentino
-          <small>Casa Vacanze · Genga (AN)</small>
+          <span data-i18n="meta.brandShort">La Voce del Sentino</span>
+          <small data-i18n="meta.brandSmall">Casa Vacanze · Genga (AN)</small>
         </span>
       </a>
-      <nav aria-label="Principale">
+      <nav data-i18n-attr="aria-label=nav.ariaLabel" aria-label="Principale">
         <ul class="nav__links">
-          <li><a href="index.html" class="is-active">Home Page</a></li>
-          <li><a href="la-casa.html">La casa</a></li>
-          <li><a href="le-camere.html">Le camere</a></li>
-          <li><a href="contatti.html">Contatti</a></li>
+          <li><a href="index.html" class="is-active" data-i18n="nav.home">Home Page</a></li>
+          <li><a href="la-casa.html" data-i18n="nav.house">La casa</a></li>
+          <li><a href="le-camere.html" data-i18n="nav.rooms">Le camere</a></li>
+          <li><a href="contatti.html" data-i18n="nav.contact">Contatti</a></li>
         </ul>
       </nav>
-      <a href="contatti.html" class="nav__cta">Prenota</a>
-      <button class="nav__toggle" aria-label="Apri menu" aria-expanded="false">
+      <div class="lang-switch" role="group" data-i18n-attr="aria-label=langSwitch.groupAria" aria-label="Seleziona lingua">
+        <button type="button" class="lang-switch__btn" data-lang-switch="it" aria-pressed="true">IT</button>
+        <button type="button" class="lang-switch__btn" data-lang-switch="en" aria-pressed="false">EN</button>
+      </div>
+      <a href="contatti.html" class="nav__cta" data-i18n="nav.book">Prenota</a>
+      <button class="nav__toggle" data-i18n-attr="aria-label=nav.menuAria" aria-label="Apri menu" aria-expanded="false">
         <span></span><span></span>
       </button>
     </div>
@@ -46,28 +55,28 @@
   <!-- HERO -->
   <section class="hero" id="top">
     <div class="hero__bg">
-      <img src="images/1.jpg" alt="La casa tra l'Abbazia di San Vittore e le montagne di Frasassi" />
+      <img src="images/1.jpg" data-i18n-attr="alt=home.hero.imgAlt" alt="La casa tra l'Abbazia di San Vittore e le montagne di Frasassi" />
     </div>
     <div class="container hero__inner">
       <div class="hero__grid">
         <div class="hero__headline reveal">
-          <span class="hero__tag">Genga · Marche · Italia</span>
-          <h1 class="display">La <em>Voce</em> del Sentino<br/>— un angolo di pace.</h1>
+          <span class="hero__tag" data-i18n="home.hero.tag">Genga · Marche · Italia</span>
+          <h1 class="display" data-i18n-html="home.hero.title">La <em>Voce</em> del Sentino<br/>— un angolo di pace.</h1>
         </div>
         <div class="hero__meta reveal" data-delay="2">
           <div>
-            <span>Dove</span>
-            <strong>San Vittore<br/>delle Chiuse</strong>
+            <span data-i18n="home.hero.whereLabel">Dove</span>
+            <strong data-i18n-html="home.hero.whereValue">San Vittore<br/>delle Chiuse</strong>
           </div>
           <div>
-            <span>A piedi</span>
-            <strong>10′ dalle<br/>Grotte di Frasassi</strong>
+            <span data-i18n="home.hero.walkLabel">A piedi</span>
+            <strong data-i18n-html="home.hero.walkValue">10′ dalle<br/>Grotte di Frasassi</strong>
           </div>
         </div>
       </div>
     </div>
     <div class="hero__scroll" aria-hidden="true">
-      <span>Scorri</span>
+      <span data-i18n="home.hero.scroll">Scorri</span>
       <span class="hero__scroll-line"></span>
     </div>
   </section>
@@ -75,18 +84,18 @@
   <!-- MARQUEE -->
   <div class="marquee" aria-hidden="true">
     <div class="marquee__track">
-      <span>Grotte di Frasassi</span>
-      <span>Tempio del Valadier</span>
-      <span>Abbazia di San Vittore</span>
-      <span>Fiume Sentino</span>
-      <span>Terme di Frasassi</span>
-      <span>Gola della Rossa</span>
-      <span>Grotte di Frasassi</span>
-      <span>Tempio del Valadier</span>
-      <span>Abbazia di San Vittore</span>
-      <span>Fiume Sentino</span>
-      <span>Terme di Frasassi</span>
-      <span>Gola della Rossa</span>
+      <span data-i18n="home.marquee.a">Grotte di Frasassi</span>
+      <span data-i18n="home.marquee.b">Tempio del Valadier</span>
+      <span data-i18n="home.marquee.c">Abbazia di San Vittore</span>
+      <span data-i18n="home.marquee.d">Fiume Sentino</span>
+      <span data-i18n="home.marquee.e">Terme di Frasassi</span>
+      <span data-i18n="home.marquee.f">Gola della Rossa</span>
+      <span data-i18n="home.marquee.a">Grotte di Frasassi</span>
+      <span data-i18n="home.marquee.b">Tempio del Valadier</span>
+      <span data-i18n="home.marquee.c">Abbazia di San Vittore</span>
+      <span data-i18n="home.marquee.d">Fiume Sentino</span>
+      <span data-i18n="home.marquee.e">Terme di Frasassi</span>
+      <span data-i18n="home.marquee.f">Gola della Rossa</span>
     </div>
   </div>
 
@@ -95,23 +104,23 @@
     <div class="container">
       <div class="section-head">
         <div class="reveal">
-          <span class="eyebrow">01 — Benvenuti</span>
+          <span class="eyebrow" data-i18n="home.welcome.eyebrow">01 — Benvenuti</span>
         </div>
         <div class="section-head__right reveal" data-delay="1">
-          <h2 class="h-section">Cari Ospiti, siamo felici di accompagnarVi in questo <em>angolo di pace</em>.</h2>
+          <h2 class="h-section" data-i18n-html="home.welcome.title">Cari Ospiti, siamo felici di accompagnarVi in questo <em>angolo di pace</em>.</h2>
         </div>
       </div>
 
       <div class="split">
         <div class="split__media reveal">
-          <img src="images/41.jpg" alt="L'Abbazia di San Vittore accanto alla casa, con la gola di Frasassi sullo sfondo" />
-          <span class="split__caption">San Vittore · Genga</span>
+          <img src="images/41.jpg" data-i18n-attr="alt=home.welcome.imgAlt" alt="L'Abbazia di San Vittore accanto alla casa, con la gola di Frasassi sullo sfondo" />
+          <span class="split__caption" data-i18n="home.welcome.caption">San Vittore · Genga</span>
         </div>
         <div class="split__content reveal" data-delay="1">
-          <p class="lead">Abbiamo scelto questo nome perché crediamo che il lusso più grande, oggi, sia ritrovare il ritmo della natura.</p>
-          <p class="body-text">Il fiume che scorre qui davanti a Voi, il Sentino, non è solo un elemento del paesaggio: è l'instancabile scultore che in un milione di anni ha dato vita alle Grotte di Frasassi.</p>
-          <p class="body-text">Mettetevi comodi, aprite la finestra e tendete l'orecchio: la sua voce è qui per accompagnare il Vostro riposo, rinfrescare le Vostre giornate e ricordarVI che la meraviglia inizia appena fuori dalla porta di casa.</p>
-          <p class="body-text">Vi auguriamo un soggiorno indimenticabile tra relax, acqua e roccia.</p>
+          <p class="lead" data-i18n="home.welcome.lead">Abbiamo scelto questo nome perché crediamo che il lusso più grande, oggi, sia ritrovare il ritmo della natura.</p>
+          <p class="body-text" data-i18n="home.welcome.p1">Il fiume che scorre qui davanti a Voi, il Sentino, non è solo un elemento del paesaggio: è l'instancabile scultore che in un milione di anni ha dato vita alle Grotte di Frasassi.</p>
+          <p class="body-text" data-i18n="home.welcome.p2">Mettetevi comodi, aprite la finestra e tendete l'orecchio: la sua voce è qui per accompagnare il Vostro riposo, rinfrescare le Vostre giornate e ricordarVI che la meraviglia inizia appena fuori dalla porta di casa.</p>
+          <p class="body-text" data-i18n="home.welcome.p3">Vi auguriamo un soggiorno indimenticabile tra relax, acqua e roccia.</p>
         </div>
       </div>
     </div>
@@ -120,7 +129,7 @@
   <!-- PULL QUOTE -->
   <section class="pull">
     <div class="container">
-      <p class="pull__quote reveal">« Il lusso più grande, oggi, è <span>ritrovare il ritmo della natura.</span> »</p>
+      <p class="pull__quote reveal" data-i18n-html="home.pull.quote">« Il lusso più grande, oggi, è <span>ritrovare il ritmo della natura.</span> »</p>
     </div>
   </section>
 
@@ -129,13 +138,13 @@
     <div class="legend__bg"><img src="images/Grotte2.jpg" alt="" aria-hidden="true" /></div>
     <div class="container">
       <div class="legend__inner">
-        <span class="eyebrow center reveal" style="color:#E8C9A8;">02 — La leggenda</span>
-        <h2 class="h-section reveal" data-delay="1" style="margin-top:1rem;">La leggenda del Sentino <em>e la montagna.</em></h2>
+        <span class="eyebrow center reveal" style="color:#E8C9A8;" data-i18n="home.legend.eyebrow">02 — La leggenda</span>
+        <h2 class="h-section reveal" data-delay="1" style="margin-top:1rem;" data-i18n-html="home.legend.title">La leggenda del Sentino <em>e la montagna.</em></h2>
 
         <div style="margin-top:3rem;">
-          <p class="legend__quote reveal" data-delay="2">Si narra che migliaia di anni fa il fiume Sentino si innamorò della grande montagna di roccia che sbarrava il suo cammino.</p>
-          <p class="legend__quote reveal" data-delay="3">Non potendo scavalcarla decise di sussurrarle la sua melodia. Giorno dopo giorno, cercando un passaggio nel suo cuore di pietra, con la pazienza infinita che solo l'acqua possiede, il fiume trovò la strada verso il buio più profondo.</p>
-          <p class="legend__quote reveal" data-delay="4">Lì, nel silenzio della terra, l'acqua iniziò a danzare con la roccia formando cattedrali di cristallo, vele bianche e giganti di calcare. Creò così quelle che oggi il mondo chiama <span>«Grotte di Frasassi»</span>.</p>
+          <p class="legend__quote reveal" data-delay="2" data-i18n="home.legend.p1">Si narra che migliaia di anni fa il fiume Sentino si innamorò della grande montagna di roccia che sbarrava il suo cammino.</p>
+          <p class="legend__quote reveal" data-delay="3" data-i18n="home.legend.p2">Non potendo scavalcarla decise di sussurrarle la sua melodia. Giorno dopo giorno, cercando un passaggio nel suo cuore di pietra, con la pazienza infinita che solo l'acqua possiede, il fiume trovò la strada verso il buio più profondo.</p>
+          <p class="legend__quote reveal" data-delay="4" data-i18n-html="home.legend.p3">Lì, nel silenzio della terra, l'acqua iniziò a danzare con la roccia formando cattedrali di cristallo, vele bianche e giganti di calcare. Creò così quelle che oggi il mondo chiama <span>«Grotte di Frasassi»</span>.</p>
         </div>
       </div>
     </div>
@@ -146,20 +155,20 @@
     <div class="container">
       <div class="section-head">
         <div class="reveal">
-          <span class="eyebrow">03 — Sguardi</span>
+          <span class="eyebrow" data-i18n="home.gallery.eyebrow">03 — Sguardi</span>
         </div>
         <div class="section-head__right reveal" data-delay="1">
-          <h2 class="h-section">Acqua e roccia, <em>scritte dal tempo.</em></h2>
+          <h2 class="h-section" data-i18n-html="home.gallery.title">Acqua e roccia, <em>scritte dal tempo.</em></h2>
         </div>
       </div>
 
       <div class="gallery">
-        <div class="gallery__item gallery__item--a reveal"><img src="images/147.jpg" alt="Il ponte romanico di San Vittore delle Chiuse sul fiume Sentino" loading="lazy" /></div>
-        <div class="gallery__item gallery__item--b reveal" data-delay="1"><img src="images/ForoDegliOcchialoni.jpg" alt="Il Foro degli Occhialoni: finestra naturale nella roccia" loading="lazy" /></div>
-        <div class="gallery__item gallery__item--c reveal"><img src="images/47.jpg" alt="La casa con la torre medievale di San Vittore" loading="lazy" /></div>
-        <div class="gallery__item gallery__item--d reveal" data-delay="1"><img src="images/192.jpg" alt="Borgo di San Vittore delle Chiuse" loading="lazy" /></div>
-        <div class="gallery__item gallery__item--e reveal"><img src="images/Grotte2.jpg" alt="Interno delle Grotte di Frasassi" loading="lazy" /></div>
-        <div class="gallery__item gallery__item--f reveal" data-delay="1"><img src="images/TempioDelValadier2.jpg" alt="Il Tempio del Valadier incastonato nella roccia" loading="lazy" /></div>
+        <div class="gallery__item gallery__item--a reveal"><img src="images/147.jpg" data-i18n-attr="alt=home.gallery.a" alt="Il ponte romanico di San Vittore delle Chiuse sul fiume Sentino" loading="lazy" /></div>
+        <div class="gallery__item gallery__item--b reveal" data-delay="1"><img src="images/ForoDegliOcchialoni.jpg" data-i18n-attr="alt=home.gallery.b" alt="Il Foro degli Occhialoni: finestra naturale nella roccia" loading="lazy" /></div>
+        <div class="gallery__item gallery__item--c reveal"><img src="images/47.jpg" data-i18n-attr="alt=home.gallery.c" alt="La casa con la torre medievale di San Vittore" loading="lazy" /></div>
+        <div class="gallery__item gallery__item--d reveal" data-delay="1"><img src="images/192.jpg" data-i18n-attr="alt=home.gallery.d" alt="Borgo di San Vittore delle Chiuse" loading="lazy" /></div>
+        <div class="gallery__item gallery__item--e reveal"><img src="images/Grotte2.jpg" data-i18n-attr="alt=home.gallery.e" alt="Interno delle Grotte di Frasassi" loading="lazy" /></div>
+        <div class="gallery__item gallery__item--f reveal" data-delay="1"><img src="images/TempioDelValadier2.jpg" data-i18n-attr="alt=home.gallery.f" alt="Il Tempio del Valadier incastonato nella roccia" loading="lazy" /></div>
       </div>
     </div>
   </section>
@@ -168,11 +177,11 @@
   <section class="section section--tight">
     <div class="container">
       <div class="section-head section-head--stack">
-        <span class="eyebrow center reveal">04 — Soggiorno su misura</span>
-        <h2 class="h-section reveal" data-delay="1" style="margin:1rem 0 1.5rem;">Ogni stagione regala <em>emozioni diverse</em>.</h2>
-        <p class="body-text reveal" data-delay="2" style="max-width:52ch; margin-inline:auto;">Scrivici per conoscere il prezzo su misura per il tuo momento speciale. Rispondiamo a ogni richiesta personalmente, con cura.</p>
+        <span class="eyebrow center reveal" data-i18n="home.cta.eyebrow">04 — Soggiorno su misura</span>
+        <h2 class="h-section reveal" data-delay="1" style="margin:1rem 0 1.5rem;" data-i18n-html="home.cta.title">Ogni stagione regala <em>emozioni diverse</em>.</h2>
+        <p class="body-text reveal" data-delay="2" style="max-width:52ch; margin-inline:auto;" data-i18n="home.cta.body">Scrivici per conoscere il prezzo su misura per il tuo momento speciale. Rispondiamo a ogni richiesta personalmente, con cura.</p>
         <div style="margin-top:2.5rem;" class="reveal" data-delay="3">
-          <a href="contatti.html" class="btn btn--primary">Richiedi disponibilità <span class="arrow">→</span></a>
+          <a href="contatti.html" class="btn btn--primary"><span data-i18n="home.cta.btn">Richiedi disponibilità</span> <span class="arrow">→</span></a>
         </div>
       </div>
     </div>
@@ -183,43 +192,44 @@
     <div class="container">
       <div class="footer__top">
         <div>
-          <p class="footer__brand">La Voce del Sentino<small>Casa Vacanze</small></p>
-          <p class="footer__tagline">Un angolo di pace tra relax, acqua e roccia, ai piedi dell'Abbazia di San Vittore.</p>
+          <p class="footer__brand"><span data-i18n="meta.brandShort">La Voce del Sentino</span><small data-i18n="footer.brandSmall">Casa Vacanze</small></p>
+          <p class="footer__tagline" data-i18n="footer.tagline">Un angolo di pace tra relax, acqua e roccia, ai piedi dell'Abbazia di San Vittore.</p>
         </div>
         <div>
-          <h4>Esplora</h4>
+          <h4 data-i18n="footer.explore">Esplora</h4>
           <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="la-casa.html">La casa</a></li>
-            <li><a href="le-camere.html">Le camere</a></li>
-            <li><a href="contatti.html">Contatti</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home Page</a></li>
+            <li><a href="la-casa.html" data-i18n="nav.house">La casa</a></li>
+            <li><a href="le-camere.html" data-i18n="nav.rooms">Le camere</a></li>
+            <li><a href="contatti.html" data-i18n="nav.contact">Contatti</a></li>
           </ul>
         </div>
         <div>
-          <h4>Contatti</h4>
+          <h4 data-i18n="footer.contact">Contatti</h4>
           <address>
-            60040 Genga (AN)<br/>
-            Via San Vittore, 5<br/>
+            <span data-i18n="footer.addressLine1">60040 Genga (AN)</span><br/>
+            <span data-i18n="footer.addressLine2">Via San Vittore, 5</span><br/>
             <a href="tel:+393384430460">+39 338 44 30 460</a><br/>
             <a href="mailto:informazioni@lavocedelsentino.com">informazioni@lavocedelsentino.com</a>
           </address>
         </div>
         <div>
-          <h4>Legale</h4>
+          <h4 data-i18n="footer.legal">Legale</h4>
           <ul>
             <li>CIN IT042020C2ENSKRE8V</li>
             <li>CIR 04202-LOC-00023</li>
-            <li style="margin-top:0.9rem;"><a href="privacy.html">Privacy Policy</a></li>
+            <li style="margin-top:0.9rem;"><a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
           </ul>
         </div>
       </div>
       <div class="footer__bottom">
         <span>© <span data-year></span> La Voce del Sentino</span>
-        <span>Marche · Italia</span>
+        <span data-i18n="footer.locale">Marche · Italia</span>
       </div>
     </div>
   </footer>
 
+  <script src="js/i18n.js" defer></script>
   <script src="js/main.js" defer></script>
 </body>
 </html>

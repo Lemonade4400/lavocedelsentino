@@ -3,9 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Le camere — La Voce del Sentino</title>
-  <meta name="description" content="Due camere con bagno privato, ampia cucina, soggiorno e giardino: ogni dettaglio pensato per il tuo soggiorno." />
+  <script>
+    (function(){try{var s=['it','en'],l=localStorage.getItem('lvs-lang');if(!s.includes(l)){var n=(navigator.language||'it').slice(0,2).toLowerCase();l=s.includes(n)?n:'it';}if(l!=='it')document.documentElement.setAttribute('data-lang-pending',l);document.documentElement.lang=l;}catch(e){}})();
+  </script>
+  <title data-i18n="rooms.meta.title">Le camere — La Voce del Sentino</title>
+  <meta name="description" data-i18n-attr="content=rooms.meta.description" content="Due camere con bagno privato, ampia cucina, soggiorno e giardino: ogni dettaglio pensato per il tuo soggiorno." />
   <meta name="theme-color" content="#1C241E" />
+  <link rel="alternate" hreflang="it" href="le-camere.html" />
+  <link rel="alternate" hreflang="en" href="le-camere.html" />
   <link rel="icon" type="image/png" href="images/LA-VOCE-DEL-SENTINO-2.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,20 +21,27 @@
 
   <header class="nav" role="banner">
     <div class="container nav__inner">
-      <a href="index.html" class="nav__logo">
+      <a href="index.html" class="nav__logo" data-i18n-attr="aria-label=nav.logoAria" aria-label="La Voce del Sentino — home">
         <span class="nav__logo-mark">LVS</span>
-        <span>La Voce del Sentino<small>Casa Vacanze · Genga (AN)</small></span>
+        <span>
+          <span data-i18n="meta.brandShort">La Voce del Sentino</span>
+          <small data-i18n="meta.brandSmall">Casa Vacanze · Genga (AN)</small>
+        </span>
       </a>
-      <nav aria-label="Principale">
+      <nav data-i18n-attr="aria-label=nav.ariaLabel" aria-label="Principale">
         <ul class="nav__links">
-          <li><a href="index.html">Home Page</a></li>
-          <li><a href="la-casa.html">La casa</a></li>
-          <li><a href="le-camere.html" class="is-active">Le camere</a></li>
-          <li><a href="contatti.html">Contatti</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Home Page</a></li>
+          <li><a href="la-casa.html" data-i18n="nav.house">La casa</a></li>
+          <li><a href="le-camere.html" class="is-active" data-i18n="nav.rooms">Le camere</a></li>
+          <li><a href="contatti.html" data-i18n="nav.contact">Contatti</a></li>
         </ul>
       </nav>
-      <a href="contatti.html" class="nav__cta">Prenota</a>
-      <button class="nav__toggle" aria-label="Apri menu" aria-expanded="false">
+      <div class="lang-switch" role="group" data-i18n-attr="aria-label=langSwitch.groupAria" aria-label="Seleziona lingua">
+        <button type="button" class="lang-switch__btn" data-lang-switch="it" aria-pressed="true">IT</button>
+        <button type="button" class="lang-switch__btn" data-lang-switch="en" aria-pressed="false">EN</button>
+      </div>
+      <a href="contatti.html" class="nav__cta" data-i18n="nav.book">Prenota</a>
+      <button class="nav__toggle" data-i18n-attr="aria-label=nav.menuAria" aria-label="Apri menu" aria-expanded="false">
         <span></span><span></span>
       </button>
     </div>
@@ -37,10 +49,10 @@
 
   <!-- SUB HERO -->
   <section class="subhero">
-    <div class="subhero__bg"><img src="images/298.jpg" alt="Interno della casa: soggiorno con pareti in pietra e soffitto in legno" /></div>
+    <div class="subhero__bg"><img src="images/298.jpg" data-i18n-attr="alt=rooms.subhero.imgAlt" alt="Interno della casa: soggiorno con pareti in pietra e soffitto in legno" /></div>
     <div class="container subhero__inner">
-      <span class="subhero__tag reveal">Le camere</span>
-      <h1 class="subhero__title reveal" data-delay="1">Due camere,<br/><em>mille risvegli sul ponte romanico.</em></h1>
+      <span class="subhero__tag reveal" data-i18n="rooms.subhero.tag">Le camere</span>
+      <h1 class="subhero__title reveal" data-delay="1" data-i18n-html="rooms.subhero.title">Due camere,<br/><em>mille risvegli sul ponte romanico.</em></h1>
     </div>
   </section>
 
@@ -49,21 +61,21 @@
     <div class="container">
       <div class="rooms-intro">
         <div class="rooms-intro__media reveal">
-          <img src="images/298.jpg" alt="Soggiorno con pareti in pietra, travi a vista e pavimento in cotto" />
+          <img src="images/298.jpg" data-i18n-attr="alt=rooms.intro.imgAlt" alt="Soggiorno con pareti in pietra, travi a vista e pavimento in cotto" />
         </div>
         <div class="reveal" data-delay="1">
-          <span class="eyebrow">Dentro e fuori</span>
-          <h2 class="h-section" style="margin:1rem 0 2rem;">Il comfort di casa,<br/><em>la magia del paesaggio.</em></h2>
-          <p class="body-text">All'interno della nostra struttura troverete un'ampia cucina e un soggiorno spazioso, arredati con tutto il necessario per rendere il vostro soggiorno confortevole e piacevole.</p>
-          <p class="body-text">All'esterno, un giardino privato vi permetterà di rilassarvi ascoltando la magica voce del Sentino e di ammirare la Gola di Frasassi.</p>
+          <span class="eyebrow" data-i18n="rooms.intro.eyebrow">Dentro e fuori</span>
+          <h2 class="h-section" style="margin:1rem 0 2rem;" data-i18n-html="rooms.intro.title">Il comfort di casa,<br/><em>la magia del paesaggio.</em></h2>
+          <p class="body-text" data-i18n="rooms.intro.p1">All'interno della nostra struttura troverete un'ampia cucina e un soggiorno spazioso, arredati con tutto il necessario per rendere il vostro soggiorno confortevole e piacevole.</p>
+          <p class="body-text" data-i18n="rooms.intro.p2">All'esterno, un giardino privato vi permetterà di rilassarvi ascoltando la magica voce del Sentino e di ammirare la Gola di Frasassi.</p>
 
-          <ul class="amenities" aria-label="Servizi della casa">
-            <li>Ampia cucina</li>
-            <li>Soggiorno spazioso</li>
-            <li>Giardino privato</li>
-            <li>Vista sulla Gola di Frasassi</li>
-            <li>Due camere</li>
-            <li>Bagno privato in ogni camera</li>
+          <ul class="amenities" data-i18n-attr="aria-label=rooms.intro.amenitiesAria" aria-label="Servizi della casa">
+            <li data-i18n="rooms.intro.am1">Ampia cucina</li>
+            <li data-i18n="rooms.intro.am2">Soggiorno spazioso</li>
+            <li data-i18n="rooms.intro.am3">Giardino privato</li>
+            <li data-i18n="rooms.intro.am4">Vista sulla Gola di Frasassi</li>
+            <li data-i18n="rooms.intro.am5">Due camere</li>
+            <li data-i18n="rooms.intro.am6">Bagno privato in ogni camera</li>
           </ul>
         </div>
       </div>
@@ -75,19 +87,19 @@
     <div class="container">
       <div class="section-head">
         <div class="reveal">
-          <span class="eyebrow">01 — Le stanze</span>
+          <span class="eyebrow" data-i18n="rooms.two.eyebrow">01 — Le stanze</span>
         </div>
         <div class="section-head__right reveal" data-delay="1">
-          <h2 class="h-section">Due camere con <em>bagno privato</em>.</h2>
-          <p class="body-text" style="margin-top:1.25rem;">La nostra struttura dispone di due camere con bagno privato, perfette per garantire comfort e privacy agli ospiti.</p>
+          <h2 class="h-section" data-i18n-html="rooms.two.title">Due camere con <em>bagno privato</em>.</h2>
+          <p class="body-text" style="margin-top:1.25rem;" data-i18n="rooms.two.lead">La nostra struttura dispone di due camere con bagno privato, perfette per garantire comfort e privacy agli ospiti.</p>
         </div>
       </div>
 
       <div class="gallery">
-        <div class="gallery__item gallery__item--a reveal"><img src="images/154.jpg" alt="Vista dalla camera sul Ponte Romanico di San Vittore" loading="lazy" /></div>
-        <div class="gallery__item gallery__item--b reveal" data-delay="1"><img src="images/147_a4yt0iqr.jpg" alt="Scorcio della casa con il ponte romanico e il fiume Sentino" loading="lazy" /></div>
-        <div class="gallery__item gallery__item--d reveal"><img src="images/298.jpg" alt="Soggiorno con stufa, divano e tavolo vicino alla parete in pietra" loading="lazy" /></div>
-        <div class="gallery__item gallery__item--c reveal" data-delay="1"><img src="images/192.jpg" alt="La torre medievale e il borgo di San Vittore delle Chiuse" loading="lazy" /></div>
+        <div class="gallery__item gallery__item--a reveal"><img src="images/154.jpg" data-i18n-attr="alt=rooms.two.gA" alt="Vista dalla camera sul Ponte Romanico di San Vittore" loading="lazy" /></div>
+        <div class="gallery__item gallery__item--b reveal" data-delay="1"><img src="images/147_a4yt0iqr.jpg" data-i18n-attr="alt=rooms.two.gB" alt="Scorcio della casa con il ponte romanico e il fiume Sentino" loading="lazy" /></div>
+        <div class="gallery__item gallery__item--d reveal"><img src="images/298.jpg" data-i18n-attr="alt=rooms.two.gC" alt="Soggiorno con stufa, divano e tavolo vicino alla parete in pietra" loading="lazy" /></div>
+        <div class="gallery__item gallery__item--c reveal" data-delay="1"><img src="images/192.jpg" data-i18n-attr="alt=rooms.two.gD" alt="La torre medievale e il borgo di San Vittore delle Chiuse" loading="lazy" /></div>
       </div>
     </div>
   </section>
@@ -97,15 +109,15 @@
     <div class="container">
       <div class="split split--reverse">
         <div class="split__media reveal">
-          <img src="images/SanVittore.jpg" alt="L'Abbazia di San Vittore in tutta la sua maestà" loading="lazy" />
-          <span class="split__caption">Abbazia di San Vittore</span>
+          <img src="images/SanVittore.jpg" data-i18n-attr="alt=rooms.view.imgAlt" alt="L'Abbazia di San Vittore in tutta la sua maestà" loading="lazy" />
+          <span class="split__caption" data-i18n="rooms.view.caption">Abbazia di San Vittore</span>
         </div>
         <div class="split__content reveal" data-delay="1">
-          <span class="eyebrow">02 — La vista</span>
-          <h2 class="h-section" style="margin:1rem 0 2rem;">Il saluto del mattino <em>arriva dal XI secolo</em>.</h2>
-          <p class="lead" style="margin-bottom:1.5rem;">Aprire le finestre e trovarsi faccia a faccia con la storia qui è possibile.</p>
-          <p class="body-text">Dalla camera della nostra casa vacanze, il monumentale Ponte Romanico di San Vittore delle Chiuse è il primo saluto del mattino.</p>
-          <p class="body-text">Una vista esclusiva che trasforma ogni risveglio in un viaggio nel tempo, tra il mormorio del fiume Sentino e il fascino millenario dell'Abbazia di San Vittore.</p>
+          <span class="eyebrow" data-i18n="rooms.view.eyebrow">02 — La vista</span>
+          <h2 class="h-section" style="margin:1rem 0 2rem;" data-i18n-html="rooms.view.title">Il saluto del mattino <em>arriva dal XI secolo</em>.</h2>
+          <p class="lead" style="margin-bottom:1.5rem;" data-i18n="rooms.view.lead">Aprire le finestre e trovarsi faccia a faccia con la storia qui è possibile.</p>
+          <p class="body-text" data-i18n="rooms.view.p1">Dalla camera della nostra casa vacanze, il monumentale Ponte Romanico di San Vittore delle Chiuse è il primo saluto del mattino.</p>
+          <p class="body-text" data-i18n="rooms.view.p2">Una vista esclusiva che trasforma ogni risveglio in un viaggio nel tempo, tra il mormorio del fiume Sentino e il fascino millenario dell'Abbazia di San Vittore.</p>
         </div>
       </div>
     </div>
@@ -115,10 +127,10 @@
   <section class="section section--tight section--dark">
     <div class="container">
       <div class="section-head section-head--stack">
-        <span class="eyebrow center reveal" style="color:#E8C9A8;">Prenota</span>
-        <h2 class="h-section reveal" data-delay="1" style="margin:1rem 0 1.5rem; color:var(--cream);">Scopri quando la casa <em>aspetta te</em>.</h2>
+        <span class="eyebrow center reveal" style="color:#E8C9A8;" data-i18n="rooms.cta.eyebrow">Prenota</span>
+        <h2 class="h-section reveal" data-delay="1" style="margin:1rem 0 1.5rem; color:var(--cream);" data-i18n-html="rooms.cta.title">Scopri quando la casa <em>aspetta te</em>.</h2>
         <div class="reveal" data-delay="2" style="margin-top:1rem;">
-          <a href="contatti.html" class="btn btn--light">Richiedi disponibilità <span class="arrow">→</span></a>
+          <a href="contatti.html" class="btn btn--light"><span data-i18n="rooms.cta.btn">Richiedi disponibilità</span> <span class="arrow">→</span></a>
         </div>
       </div>
     </div>
@@ -129,43 +141,44 @@
     <div class="container">
       <div class="footer__top">
         <div>
-          <p class="footer__brand">La Voce del Sentino<small>Casa Vacanze</small></p>
-          <p class="footer__tagline">Un angolo di pace tra relax, acqua e roccia, ai piedi dell'Abbazia di San Vittore.</p>
+          <p class="footer__brand"><span data-i18n="meta.brandShort">La Voce del Sentino</span><small data-i18n="footer.brandSmall">Casa Vacanze</small></p>
+          <p class="footer__tagline" data-i18n="footer.tagline">Un angolo di pace tra relax, acqua e roccia, ai piedi dell'Abbazia di San Vittore.</p>
         </div>
         <div>
-          <h4>Esplora</h4>
+          <h4 data-i18n="footer.explore">Esplora</h4>
           <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="la-casa.html">La casa</a></li>
-            <li><a href="le-camere.html">Le camere</a></li>
-            <li><a href="contatti.html">Contatti</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home Page</a></li>
+            <li><a href="la-casa.html" data-i18n="nav.house">La casa</a></li>
+            <li><a href="le-camere.html" data-i18n="nav.rooms">Le camere</a></li>
+            <li><a href="contatti.html" data-i18n="nav.contact">Contatti</a></li>
           </ul>
         </div>
         <div>
-          <h4>Contatti</h4>
+          <h4 data-i18n="footer.contact">Contatti</h4>
           <address>
-            60040 Genga (AN)<br/>
-            Via San Vittore, 5<br/>
+            <span data-i18n="footer.addressLine1">60040 Genga (AN)</span><br/>
+            <span data-i18n="footer.addressLine2">Via San Vittore, 5</span><br/>
             <a href="tel:+393384430460">+39 338 44 30 460</a><br/>
             <a href="mailto:informazioni@lavocedelsentino.com">informazioni@lavocedelsentino.com</a>
           </address>
         </div>
         <div>
-          <h4>Legale</h4>
+          <h4 data-i18n="footer.legal">Legale</h4>
           <ul>
             <li>CIN IT042020C2ENSKRE8V</li>
             <li>CIR 04202-LOC-00023</li>
-            <li style="margin-top:0.9rem;"><a href="privacy.html">Privacy Policy</a></li>
+            <li style="margin-top:0.9rem;"><a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
           </ul>
         </div>
       </div>
       <div class="footer__bottom">
         <span>© <span data-year></span> La Voce del Sentino</span>
-        <span>Marche · Italia</span>
+        <span data-i18n="footer.locale">Marche · Italia</span>
       </div>
     </div>
   </footer>
 
+  <script src="js/i18n.js" defer></script>
   <script src="js/main.js" defer></script>
 </body>
 </html>

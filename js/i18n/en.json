@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "brandShort": "La Voce del Sentino",
+    "brandSmall": "Holiday Home · Genga (AN)"
+  },
+  "nav": {
+    "ariaLabel": "Main",
+    "logoAria": "La Voce del Sentino — home",
+    "home": "Home",
+    "house": "The house",
+    "rooms": "The rooms",
+    "contact": "Contact",
+    "book": "Book",
+    "menuAria": "Open menu"
+  },
+  "langSwitch": {
+    "groupAria": "Select language"
+  },
+  "footer": {
+    "brandSmall": "Holiday Home",
+    "tagline": "A corner of peace among relaxation, water and stone, at the foot of the Abbey of San Vittore.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "legal": "Legal",
+    "addressLine1": "60040 Genga (AN)",
+    "addressLine2": "Via San Vittore, 5",
+    "privacy": "Privacy Policy",
+    "locale": "Marche · Italy"
+  },
+  "home": {
+    "meta": {
+      "title": "La Voce del Sentino — Holiday Home in Genga, Marche",
+      "description": "A holiday home in the heart of Marche, just steps from the Frasassi Caves. A corner of peace beside the river Sentino, among relaxation, water and stone.",
+      "ogTitle": "La Voce del Sentino — Holiday Home",
+      "ogDescription": "A corner of peace beside the river Sentino, a 10-minute walk from the Frasassi Caves."
+    },
+    "hero": {
+      "imgAlt": "The house between the Abbey of San Vittore and the mountains of Frasassi",
+      "tag": "Genga · Marche · Italy",
+      "title": "The <em>Voice</em> of the Sentino<br/>— a corner of peace.",
+      "whereLabel": "Where",
+      "whereValue": "San Vittore<br/>delle Chiuse",
+      "walkLabel": "On foot",
+      "walkValue": "10′ from the<br/>Frasassi Caves",
+      "scroll": "Scroll"
+    },
+    "marquee": {
+      "a": "Frasassi Caves",
+      "b": "Temple of Valadier",
+      "c": "Abbey of San Vittore",
+      "d": "River Sentino",
+      "e": "Frasassi Thermal Baths",
+      "f": "Gola della Rossa"
+    },
+    "welcome": {
+      "eyebrow": "01 — Welcome",
+      "title": "Dear Guests, we are delighted to welcome you to this <em>corner of peace</em>.",
+      "imgAlt": "The Abbey of San Vittore next to the house, with the Frasassi gorge in the background",
+      "caption": "San Vittore · Genga",
+      "lead": "We chose this name because we believe that today's greatest luxury is rediscovering the rhythm of nature.",
+      "p1": "The river that flows before you, the Sentino, is not merely part of the landscape: it is the tireless sculptor that, over a million years, has given life to the Frasassi Caves.",
+      "p2": "Settle in, open the window and listen closely: its voice is here to accompany your rest, refresh your days and remind you that wonder begins just outside the door.",
+      "p3": "We wish you an unforgettable stay among relaxation, water and stone."
+    },
+    "pull": {
+      "quote": "« Today's greatest luxury is <span>rediscovering the rhythm of nature.</span> »"
+    },
+    "legend": {
+      "eyebrow": "02 — The legend",
+      "title": "The legend of the Sentino <em>and the mountain.</em>",
+      "p1": "It is said that thousands of years ago the river Sentino fell in love with the great mountain of stone that blocked its path.",
+      "p2": "Unable to climb over it, the river chose instead to whisper its melody. Day after day, seeking passage through its heart of stone with the infinite patience only water possesses, the river found its way into the deepest darkness.",
+      "p3": "There, in the silence of the earth, water began to dance with stone, shaping cathedrals of crystal, white sails and giants of limestone. And so it created what the world now calls <span>«Frasassi Caves»</span>."
+    },
+    "gallery": {
+      "eyebrow": "03 — Views",
+      "title": "Water and stone, <em>written by time.</em>",
+      "a": "The Romanesque bridge of San Vittore delle Chiuse over the river Sentino",
+      "b": "The Foro degli Occhialoni: a natural window in the rock",
+      "c": "The house with the medieval tower of San Vittore",
+      "d": "Village of San Vittore delle Chiuse",
+      "e": "Inside the Frasassi Caves",
+      "f": "The Temple of Valadier set into the rock"
+    },
+    "cta": {
+      "eyebrow": "04 — A tailored stay",
+      "title": "Every season brings <em>different emotions</em>.",
+      "body": "Write to us for a tailored quote for your special moment. We reply to every request personally, with care.",
+      "btn": "Check availability"
+    }
+  },
+  "house": {
+    "meta": {
+      "title": "The House — La Voce del Sentino",
+      "description": "Our holiday home in San Vittore delle Chiuse, a medieval village in Genga, a 10-minute walk from the Frasassi Caves."
+    },
+    "subhero": {
+      "imgAlt": "The holiday home facing the Abbey of San Vittore",
+      "tag": "The house",
+      "title": "Between the abbey and the gorge,<br/><em>where stone meets water.</em>"
+    },
+    "intro": {
+      "eyebrow": "The place",
+      "title": "A doorway onto the <em>wonders of Marche</em>.",
+      "lead": "Welcome to «La Voce del Sentino»: our holiday home is the ideal starting point to explore the natural and cultural wonders of Marche.",
+      "p1": "The property is located in San Vittore delle Chiuse — a medieval village in the municipality of Genga (AN), at the entrance to the striking Gola della Rossa and Frasassi gorge.",
+      "p2": "It is celebrated for its Romanesque abbey and encircled by a natural amphitheatre of mountains.",
+      "p3": "Set in a quiet, panoramic landscape, the house offers a restful stay without sacrificing the convenience of being close to the main attractions.",
+      "imgAlt": "The holiday home between the Abbey of San Vittore and the Frasassi gorge",
+      "caption": "The house · San Vittore delle Chiuse"
+    },
+    "attractions": {
+      "eyebrow": "What's around",
+      "title": "Everything <em>just steps away</em>.",
+      "lead": "From ancient caves to hiking trails, from thermal baths to the temple hidden in the rock: eight experiences open up within a few minutes.",
+      "a": { "name": "Frasassi Caves", "distance": "10-minute walk", "alt": "Frasassi Caves" },
+      "b": { "name": "Temple of Valadier", "distance": "3 km from the house", "alt": "Temple of Valadier" },
+      "c": { "name": "Abbey of San Vittore", "distance": "just behind the holiday home", "alt": "Abbey of San Vittore" },
+      "d": { "name": "Genga Adventure Park", "distance": "in front of the property", "alt": "Genga Adventure Park" },
+      "e": { "name": "Hiking trails such as the Foro degli Occhialoni", "distance": "nature and panoramas", "alt": "Foro degli Occhialoni" },
+      "f": { "name": "River Sentino", "distance": "in front of the house", "alt": "River Sentino" },
+      "g": { "name": "Sulphur springs", "distance": "a stone's throw away", "alt": "Sulphur springs" },
+      "h": { "name": "Frasassi Thermal Baths", "distance": "1 minute away", "alt": "Frasassi Thermal Baths" }
+    },
+    "cta": {
+      "eyebrow": "Book",
+      "title": "A stay <em>tailored</em> for you.",
+      "btn": "Request information"
+    }
+  },
+  "rooms": {
+    "meta": {
+      "title": "The Rooms — La Voce del Sentino",
+      "description": "Two bedrooms with en-suite bathroom, a spacious kitchen, living room and garden: every detail considered for your stay."
+    },
+    "subhero": {
+      "imgAlt": "Inside the house: living room with stone walls and timber ceiling",
+      "tag": "The rooms",
+      "title": "Two bedrooms,<br/><em>a thousand sunrises over the Romanesque bridge.</em>"
+    },
+    "intro": {
+      "eyebrow": "Inside and out",
+      "title": "The comfort of home,<br/><em>the magic of the landscape.</em>",
+      "imgAlt": "Living room with stone walls, exposed beams and terracotta floor",
+      "p1": "Inside you will find a spacious kitchen and a generous living room, furnished with everything needed to make your stay comfortable and pleasant.",
+      "p2": "Outside, a private garden lets you relax while listening to the magical voice of the Sentino and admiring the Frasassi gorge.",
+      "amenitiesAria": "House amenities",
+      "am1": "Spacious kitchen",
+      "am2": "Generous living room",
+      "am3": "Private garden",
+      "am4": "View of the Frasassi gorge",
+      "am5": "Two bedrooms",
+      "am6": "En-suite bathroom in every room"
+    },
+    "two": {
+      "eyebrow": "01 — The rooms",
+      "title": "Two bedrooms, each with <em>en-suite bathroom</em>.",
+      "lead": "The property features two bedrooms with en-suite bathrooms, designed to ensure comfort and privacy for our guests.",
+      "gA": "View from the bedroom over the Romanesque bridge of San Vittore",
+      "gB": "Glimpse of the house with the Romanesque bridge and the river Sentino",
+      "gC": "Living room with stove, sofa and table beside the stone wall",
+      "gD": "The medieval tower and the village of San Vittore delle Chiuse"
+    },
+    "view": {
+      "eyebrow": "02 — The view",
+      "title": "The morning's greeting <em>arrives from the 11th century</em>.",
+      "imgAlt": "The Abbey of San Vittore in all its splendour",
+      "caption": "Abbey of San Vittore",
+      "lead": "Here you can open the windows and find yourself face to face with history.",
+      "p1": "From the bedroom of our holiday home, the monumental Romanesque bridge of San Vittore delle Chiuse offers the first greeting of the morning.",
+      "p2": "An exclusive view that turns every awakening into a journey through time, between the murmur of the river Sentino and the ancient charm of the Abbey of San Vittore."
+    },
+    "cta": {
+      "eyebrow": "Book",
+      "title": "Discover when the house <em>is waiting for you</em>.",
+      "btn": "Check availability"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact — La Voce del Sentino",
+      "description": "Write to us for a tailored quote. La Voce del Sentino holiday home, Genga (AN)."
+    },
+    "subhero": {
+      "imgAlt": "The Romanesque bridge of San Vittore at sunset",
+      "tag": "Contact",
+      "title": "A <em>tailored quote</em><br/>for your special moment."
+    },
+    "intro": {
+      "eyebrow": "Info Point",
+      "lead": "Every season brings different emotions here in Genga, and our stays change with time too. Contact us to discover the tailored price for your special moment."
+    },
+    "side": {
+      "eyebrow": "Write to us",
+      "title": "We reply to every<br/>request <em>personally</em>.",
+      "phoneLabel": "Phone",
+      "reservationsLabel": "Reservations",
+      "infoLabel": "Information",
+      "addressLabel": "Address"
+    },
+    "form": {
+      "ariaLabel": "Information request form",
+      "nameLabel": "Full name",
+      "emailLabel": "Email",
+      "arrivalLabel": "Arrival",
+      "departureLabel": "Departure",
+      "guestsLabel": "Number of guests",
+      "guest1": "1 guest",
+      "guest2": "2 guests",
+      "guest3": "3 guests",
+      "guest4": "4 guests",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your ideal stay…",
+      "submit": "Send request",
+      "note": "By submitting this form you accept the processing of your data as described in the <a href=\"privacy.html\">Privacy Policy</a>.",
+      "mailSubject": "Stay request",
+      "mailFallbackName": "Guest",
+      "mailFieldName": "Name",
+      "mailFieldEmail": "Email",
+      "mailFieldArrival": "Arrival",
+      "mailFieldDeparture": "Departure",
+      "mailFieldGuests": "Guests"
+    },
+    "map": {
+      "eyebrow": "How to find us",
+      "title": "Via San Vittore, 5 — <em>Genga (AN)</em>.",
+      "iframeTitle": "Map — La Voce del Sentino"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy — La Voce del Sentino",
+      "description": "Information on the processing of personal data pursuant to EU Reg. 679/2016."
+    },
+    "eyebrow": "Privacy",
+    "title": "Information on the processing of personal data <em>[article 13 of reg. (E.U.) no. 679/2016]</em>",
+    "intro": "In accordance with art. 13 of Reg. (E.U.) no. 679/2016 of the European Parliament and of the Council of 27 April 2016, concerning the protection of natural persons with regard to the processing of personal data and on the free movement of such data — hereafter, Reg. (E.U.) — we provide you with the following information regarding the processing of your personal data. The legally binding version of this document is the Italian one; this translation is provided for convenience.",
+    "h_owner": "Contact details of the Data Controller",
+    "p_owner": "The Data Controller is Tironzelli Sabrina, with registered office at Via San Vittore, 5 — 60040 Genga (AN) — Tax Code TRNSRN74B56E256E, contactable by email at: informazioni@lavocedelsentino.com — tel. 338 44 30 460.",
+    "p_scope": "This Information Notice:",
+    "li_scope_1": "is issued for the website www.lavocedelsentino.com (hereafter: \"Site\");",
+    "li_scope_2": "forms an integral part of the Site and of the services we offer;",
+    "li_scope_3": "is provided, pursuant to arts. 13 and 14 of the Regulation, to those who interact with the services of the site, both by simply browsing and by using specific services made available through the site.",
+    "h_categories": "Categories of data processed through the site",
+    "p_categories": "The Site processes only common personal data communicated directly by the data subject or lawfully obtained by the Controller. The types and methods of data processing relating to the site are described below:",
+    "h_nav": "a. Navigation data",
+    "p_nav": "The computer systems and software procedures that operate the Site acquire, during their normal operation, certain personal data whose transmission is implicit in the use of Internet communication protocols. This information is not collected in order to be associated with identified data subjects, but by its very nature could, through processing and association with data held by third parties, allow users to be identified. This category of data includes IP addresses or domain names of the computers used by users connecting to the Site, the URI (Uniform Resource Identifier) addresses of the resources requested, the time of the request, the method used in submitting the request to the server, the size of the file obtained in response, the numerical code indicating the status of the server's response (success, error, etc.) and other parameters relating to the operating system and the user's computing environment. This data is used solely to obtain anonymous statistical information on the use of the Site, to monitor its correct functioning, and to identify anomalies and/or abuses; in any case it is deleted immediately after processing. The data may be used to establish liability in the event of hypothetical computer crimes against the Site or against third parties.",
+    "h_cookie": "b. Data collected via tracking (cookies)",
+    "p_cookie": "Tracking takes place via code executed within websites both at server level (e.g. services, procedures) and at client level (e.g. tags, pixels), including with the support of code installed on your browser (e.g. cookies). As to the purpose and management of the consents relating to tracking, please refer to the specific \"Cookie Policy\" section of our website.",
+    "h_user": "c. Data voluntarily provided by the user",
+    "p_user": "Data voluntarily entered into the various forms on the site, such as a request for information by email, through which the data subject is put in contact with the Company, which will be able to provide assistance by responding in real time to requests.",
+    "h_modality": "Processing methods",
+    "p_modality": "The Controller will process the data by electronic means. The Controller does NOT carry out processing for profiling purposes, either personal or generalised. The Company does NOT employ automated decision-making processes.",
+    "h_purposes": "Purposes and related legal bases of the processing of personal data",
+    "p_purposes": "Personal data will be processed lawfully, fairly and transparently for the following purposes:",
+    "li_purpose_1": "Conducting the Company's activities. The legal basis is art. 6(1)(c) of EU Regulation 679/2016: processing is necessary to comply with a legal obligation to which the data controller is subject. Once personal data has been provided, processing is indeed necessary to fulfil legal obligations to which the Controller is subject.",
+    "li_purpose_2": "Fulfilment of contractual obligations on the part of the Controller. The legal basis is art. 6(1)(b) of EU Regulation 679/2016: processing is necessary for the performance of a contract to which the data subject is a party.",
+    "li_purpose_3": "Fulfilment of any obligations under applicable laws, regulations or EU legislation, compliance with requests from authorities, compliance with tax and administrative obligations. The legal basis is art. 6(1)(c) of the Regulation: processing is necessary to comply with a legal obligation to which the data controller is subject. Once personal data has been provided, processing is necessary to fulfil legal obligations to which the Controller is subject.",
+    "li_purpose_4": "Management of information systems, technology services and Site security. The legal basis is art. 6(1)(f) of EU Regulation 679/2016: this processing is carried out to pursue the Controller's legitimate interest.",
+    "li_purpose_5": "Meeting any defensive needs. The legal basis is art. 6(1)(f) of EU Regulation 679/2016: processing is carried out to pursue the Controller's legitimate interest.",
+    "h_recipients": "Recipients of personal data",
+    "p_recipients": "Personal data may be shared, for the purposes of this Privacy Policy, with:",
+    "li_recipient_1": "persons authorised by the Controller to process personal data pursuant to arts. 29 and 2-quaterdecies of the Code (e.g. administrative staff);",
+    "li_recipient_2": "third parties who, in providing services (by way of example: management of information systems, technology services, accounting, administrative, legal, tax and financial support and consultancy, technical maintenance, banking and insurance services), typically act as data processors pursuant to art. 28 of the Regulation. The Controller maintains an up-to-date list of appointed processors and allows the data subject to consult it at the office indicated above or upon request sent to the contact details indicated above;",
+    "li_recipient_3": "subjects, bodies or authorities to whom it is mandatory to disclose your personal data under legal provisions or orders of the authorities.",
+    "p_recipients_def": "These parties are hereafter collectively referred to as \"Recipients\".",
+    "h_transfers": "Transfers of personal data",
+    "p_transfers": "Personal data is shared only with Recipients located within the EU.",
+    "h_rights": "Rights of data subjects",
+    "p_rights_1": "The data subject may exercise the rights set out in arts. 15-22 GDPR and may at any time revoke the consents given, without prejudice to the lawfulness of processing carried out before revocation.",
+    "p_rights_2": "In particular, you may request access to your personal data pursuant to art. 15 GDPR, rectification pursuant to art. 16 GDPR, erasure pursuant to art. 17 GDPR, restriction of processing in the cases provided for by art. 18 GDPR, as well as portability of the data concerning you in the cases provided for by art. 20 GDPR.",
+    "p_rights_3": "The data subject may submit a request to object to the processing of your data pursuant to arts. 21 and 22 GDPR, setting out the reasons justifying the objection: the Controller reserves the right to assess the objection, which will not be accepted where there exist compelling legitimate grounds to proceed with the processing that override the interests, rights and freedoms of the data subject.",
+    "p_rights_4": "Requests must be addressed in writing to the Controller at the contact details indicated in the contacts section of this notice.",
+    "h_complaint": "Complaint to the Supervisory Authority",
+    "p_complaint": "If the data subject believes that the processing of their personal data by the Controller infringes the GDPR, they have the right to lodge a complaint with the Italian Data Protection Authority (Garante Privacy), as provided for in art. 77 GDPR, or to bring the matter before the competent judicial authorities (art. 79 GDPR).",
+    "h_retention": "Retention periods",
+    "p_retention": "Data will be retained for the time strictly necessary to achieve the purposes indicated above, that is, for the time required to fulfil any tax obligations of the Company in relation to the data provided.",
+    "h_changes": "Changes",
+    "p_changes": "The Controller reserves the right to modify or simply update the content of this Policy, in part or in whole, including due to changes in applicable legislation. The Controller therefore invites you to visit this section regularly to review the most recent and up-to-date version of the Privacy Policy, so that you are always informed about the data collected and how the Company uses it.",
+    "h_contact": "Contact",
+    "p_contact": "To exercise the rights set out above or for any other request, you may write to the Data Controller at the following contact details: email: informazioni@lavocedelsentino.com — tel. 338 44 30 460."
+  }
+}

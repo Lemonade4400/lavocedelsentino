@@ -3,9 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contatti — La Voce del Sentino</title>
-  <meta name="description" content="Scrivici per ricevere un preventivo su misura. Casa vacanze La Voce del Sentino, Genga (AN)." />
+  <script>
+    (function(){try{var s=['it','en'],l=localStorage.getItem('lvs-lang');if(!s.includes(l)){var n=(navigator.language||'it').slice(0,2).toLowerCase();l=s.includes(n)?n:'it';}if(l!=='it')document.documentElement.setAttribute('data-lang-pending',l);document.documentElement.lang=l;}catch(e){}})();
+  </script>
+  <title data-i18n="contact.meta.title">Contatti — La Voce del Sentino</title>
+  <meta name="description" data-i18n-attr="content=contact.meta.description" content="Scrivici per ricevere un preventivo su misura. Casa vacanze La Voce del Sentino, Genga (AN)." />
   <meta name="theme-color" content="#1C241E" />
+  <link rel="alternate" hreflang="it" href="contatti.html" />
+  <link rel="alternate" hreflang="en" href="contatti.html" />
   <link rel="icon" type="image/png" href="images/LA-VOCE-DEL-SENTINO-2.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,20 +21,27 @@
 
   <header class="nav" role="banner">
     <div class="container nav__inner">
-      <a href="index.html" class="nav__logo">
+      <a href="index.html" class="nav__logo" data-i18n-attr="aria-label=nav.logoAria" aria-label="La Voce del Sentino — home">
         <span class="nav__logo-mark">LVS</span>
-        <span>La Voce del Sentino<small>Casa Vacanze · Genga (AN)</small></span>
+        <span>
+          <span data-i18n="meta.brandShort">La Voce del Sentino</span>
+          <small data-i18n="meta.brandSmall">Casa Vacanze · Genga (AN)</small>
+        </span>
       </a>
-      <nav aria-label="Principale">
+      <nav data-i18n-attr="aria-label=nav.ariaLabel" aria-label="Principale">
         <ul class="nav__links">
-          <li><a href="index.html">Home Page</a></li>
-          <li><a href="la-casa.html">La casa</a></li>
-          <li><a href="le-camere.html">Le camere</a></li>
-          <li><a href="contatti.html" class="is-active">Contatti</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Home Page</a></li>
+          <li><a href="la-casa.html" data-i18n="nav.house">La casa</a></li>
+          <li><a href="le-camere.html" data-i18n="nav.rooms">Le camere</a></li>
+          <li><a href="contatti.html" class="is-active" data-i18n="nav.contact">Contatti</a></li>
         </ul>
       </nav>
-      <a href="contatti.html" class="nav__cta">Prenota</a>
-      <button class="nav__toggle" aria-label="Apri menu" aria-expanded="false">
+      <div class="lang-switch" role="group" data-i18n-attr="aria-label=langSwitch.groupAria" aria-label="Seleziona lingua">
+        <button type="button" class="lang-switch__btn" data-lang-switch="it" aria-pressed="true">IT</button>
+        <button type="button" class="lang-switch__btn" data-lang-switch="en" aria-pressed="false">EN</button>
+      </div>
+      <a href="contatti.html" class="nav__cta" data-i18n="nav.book">Prenota</a>
+      <button class="nav__toggle" data-i18n-attr="aria-label=nav.menuAria" aria-label="Apri menu" aria-expanded="false">
         <span></span><span></span>
       </button>
     </div>
@@ -37,10 +49,10 @@
 
   <!-- SUB HERO -->
   <section class="subhero">
-    <div class="subhero__bg"><img src="images/147.jpg" alt="Il ponte romanico di San Vittore al tramonto" /></div>
+    <div class="subhero__bg"><img src="images/147.jpg" data-i18n-attr="alt=contact.subhero.imgAlt" alt="Il ponte romanico di San Vittore al tramonto" /></div>
     <div class="container subhero__inner">
-      <span class="subhero__tag reveal">Contatti</span>
-      <h1 class="subhero__title reveal" data-delay="1">Un <em>preventivo su misura</em><br/>per il vostro momento speciale.</h1>
+      <span class="subhero__tag reveal" data-i18n="contact.subhero.tag">Contatti</span>
+      <h1 class="subhero__title reveal" data-delay="1" data-i18n-html="contact.subhero.title">Un <em>preventivo su misura</em><br/>per il vostro momento speciale.</h1>
     </div>
   </section>
 
@@ -48,8 +60,8 @@
   <section class="section section--tight">
     <div class="container">
       <div class="section-head section-head--stack">
-        <span class="eyebrow center reveal">Info Point</span>
-        <p class="lead reveal" data-delay="1" style="margin-top:1rem;">Ogni stagione regala emozioni diverse qui a Genga, e anche i nostri soggiorni cambiano con il tempo. Contattateci per scoprire il prezzo su misura per il vostro momento speciale.</p>
+        <span class="eyebrow center reveal" data-i18n="contact.intro.eyebrow">Info Point</span>
+        <p class="lead reveal" data-delay="1" style="margin-top:1rem;" data-i18n="contact.intro.lead">Ogni stagione regala emozioni diverse qui a Genga, e anche i nostri soggiorni cambiano con il tempo. Contattateci per scoprire il prezzo su misura per il vostro momento speciale.</p>
       </div>
     </div>
   </section>
@@ -59,63 +71,63 @@
     <div class="container">
       <div class="contact">
         <div class="contact__side reveal">
-          <span class="eyebrow">Scrivici</span>
-          <h2 class="h-section" style="margin-top:1rem;">Rispondiamo a ogni<br/>richiesta <em>personalmente</em>.</h2>
+          <span class="eyebrow" data-i18n="contact.side.eyebrow">Scrivici</span>
+          <h2 class="h-section" style="margin-top:1rem;" data-i18n-html="contact.side.title">Rispondiamo a ogni<br/>richiesta <em>personalmente</em>.</h2>
 
           <div class="contact__info">
             <div>
-              <span class="label">Telefono</span>
+              <span class="label" data-i18n="contact.side.phoneLabel">Telefono</span>
               <div class="value"><a href="tel:+393384430460">+39 338 44 30 460</a></div>
             </div>
             <div>
-              <span class="label">Prenotazioni</span>
+              <span class="label" data-i18n="contact.side.reservationsLabel">Prenotazioni</span>
               <div class="value"><a href="mailto:prenotazioni@lavocedelsentino.com">prenotazioni@lavocedelsentino.com</a></div>
             </div>
             <div>
-              <span class="label">Informazioni</span>
+              <span class="label" data-i18n="contact.side.infoLabel">Informazioni</span>
               <div class="value"><a href="mailto:informazioni@lavocedelsentino.com">informazioni@lavocedelsentino.com</a></div>
             </div>
             <div>
-              <span class="label">Indirizzo</span>
-              <div class="value">Via San Vittore, 5<br/>60040 Genga (AN)</div>
+              <span class="label" data-i18n="contact.side.addressLabel">Indirizzo</span>
+              <div class="value"><span data-i18n="footer.addressLine2">Via San Vittore, 5</span><br/><span data-i18n="footer.addressLine1">60040 Genga (AN)</span></div>
             </div>
           </div>
         </div>
 
-        <form class="form reveal" data-delay="1" data-contact-form aria-label="Modulo di richiesta informazioni">
+        <form class="form reveal" data-delay="1" data-contact-form data-i18n-attr="aria-label=contact.form.ariaLabel" aria-label="Modulo di richiesta informazioni">
           <div class="form__row">
             <div class="form__field">
-              <label class="form__label" for="name">Nome e cognome</label>
+              <label class="form__label" for="name" data-i18n="contact.form.nameLabel">Nome e cognome</label>
               <input class="form__input" id="name" name="name" type="text" required autocomplete="name" />
             </div>
             <div class="form__field">
-              <label class="form__label" for="email">Email</label>
+              <label class="form__label" for="email" data-i18n="contact.form.emailLabel">Email</label>
               <input class="form__input" id="email" name="email" type="email" required autocomplete="email" />
             </div>
             <div class="form__field">
-              <label class="form__label" for="arrival">Arrivo</label>
+              <label class="form__label" for="arrival" data-i18n="contact.form.arrivalLabel">Arrivo</label>
               <input class="form__input" id="arrival" name="arrival" type="date" />
             </div>
             <div class="form__field">
-              <label class="form__label" for="departure">Partenza</label>
+              <label class="form__label" for="departure" data-i18n="contact.form.departureLabel">Partenza</label>
               <input class="form__input" id="departure" name="departure" type="date" />
             </div>
             <div class="form__field form__field--full">
-              <label class="form__label" for="guests">Numero ospiti</label>
+              <label class="form__label" for="guests" data-i18n="contact.form.guestsLabel">Numero ospiti</label>
               <select class="form__select" id="guests" name="guests">
-                <option value="1">1 ospite</option>
-                <option value="2" selected>2 ospiti</option>
-                <option value="3">3 ospiti</option>
-                <option value="4">4 ospiti</option>
+                <option value="1" data-i18n="contact.form.guest1">1 ospite</option>
+                <option value="2" selected data-i18n="contact.form.guest2">2 ospiti</option>
+                <option value="3" data-i18n="contact.form.guest3">3 ospiti</option>
+                <option value="4" data-i18n="contact.form.guest4">4 ospiti</option>
               </select>
             </div>
             <div class="form__field form__field--full">
-              <label class="form__label" for="message">Messaggio</label>
-              <textarea class="form__textarea" id="message" name="message" rows="4" placeholder="Ditemi qualcosa del vostro soggiorno ideale…"></textarea>
+              <label class="form__label" for="message" data-i18n="contact.form.messageLabel">Messaggio</label>
+              <textarea class="form__textarea" id="message" name="message" rows="4" data-i18n-attr="placeholder=contact.form.messagePlaceholder" placeholder="Ditemi qualcosa del vostro soggiorno ideale…"></textarea>
             </div>
           </div>
-          <button type="submit" class="btn btn--primary form__submit">Invia richiesta <span class="arrow">→</span></button>
-          <p class="form__note">Inviando questo modulo accettate il trattamento dei dati come descritto nella <a href="privacy.html">Privacy Policy</a>.</p>
+          <button type="submit" class="btn btn--primary form__submit"><span data-i18n="contact.form.submit">Invia richiesta</span> <span class="arrow">→</span></button>
+          <p class="form__note" data-i18n-html="contact.form.note">Inviando questo modulo accettate il trattamento dei dati come descritto nella <a href="privacy.html">Privacy Policy</a>.</p>
         </form>
       </div>
     </div>
@@ -125,13 +137,14 @@
   <section class="section section--tight">
     <div class="container">
       <div class="section-head">
-        <div class="reveal"><span class="eyebrow">Come arrivare</span></div>
+        <div class="reveal"><span class="eyebrow" data-i18n="contact.map.eyebrow">Come arrivare</span></div>
         <div class="section-head__right reveal" data-delay="1">
-          <h2 class="h-section">Via San Vittore, 5 — <em>Genga (AN)</em>.</h2>
+          <h2 class="h-section" data-i18n-html="contact.map.title">Via San Vittore, 5 — <em>Genga (AN)</em>.</h2>
         </div>
       </div>
       <div class="map-wrap reveal">
         <iframe
+          data-i18n-attr="title=contact.map.iframeTitle"
           title="Mappa — La Voce del Sentino"
           src="https://www.google.com/maps?q=Via+San+Vittore+5+Genga+AN&output=embed"
           loading="lazy"
@@ -146,43 +159,44 @@
     <div class="container">
       <div class="footer__top">
         <div>
-          <p class="footer__brand">La Voce del Sentino<small>Casa Vacanze</small></p>
-          <p class="footer__tagline">Un angolo di pace tra relax, acqua e roccia, ai piedi dell'Abbazia di San Vittore.</p>
+          <p class="footer__brand"><span data-i18n="meta.brandShort">La Voce del Sentino</span><small data-i18n="footer.brandSmall">Casa Vacanze</small></p>
+          <p class="footer__tagline" data-i18n="footer.tagline">Un angolo di pace tra relax, acqua e roccia, ai piedi dell'Abbazia di San Vittore.</p>
         </div>
         <div>
-          <h4>Esplora</h4>
+          <h4 data-i18n="footer.explore">Esplora</h4>
           <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="la-casa.html">La casa</a></li>
-            <li><a href="le-camere.html">Le camere</a></li>
-            <li><a href="contatti.html">Contatti</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home Page</a></li>
+            <li><a href="la-casa.html" data-i18n="nav.house">La casa</a></li>
+            <li><a href="le-camere.html" data-i18n="nav.rooms">Le camere</a></li>
+            <li><a href="contatti.html" data-i18n="nav.contact">Contatti</a></li>
           </ul>
         </div>
         <div>
-          <h4>Contatti</h4>
+          <h4 data-i18n="footer.contact">Contatti</h4>
           <address>
-            60040 Genga (AN)<br/>
-            Via San Vittore, 5<br/>
+            <span data-i18n="footer.addressLine1">60040 Genga (AN)</span><br/>
+            <span data-i18n="footer.addressLine2">Via San Vittore, 5</span><br/>
             <a href="tel:+393384430460">+39 338 44 30 460</a><br/>
             <a href="mailto:informazioni@lavocedelsentino.com">informazioni@lavocedelsentino.com</a>
           </address>
         </div>
         <div>
-          <h4>Legale</h4>
+          <h4 data-i18n="footer.legal">Legale</h4>
           <ul>
             <li>CIN IT042020C2ENSKRE8V</li>
             <li>CIR 04202-LOC-00023</li>
-            <li style="margin-top:0.9rem;"><a href="privacy.html">Privacy Policy</a></li>
+            <li style="margin-top:0.9rem;"><a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
           </ul>
         </div>
       </div>
       <div class="footer__bottom">
         <span>© <span data-year></span> La Voce del Sentino</span>
-        <span>Marche · Italia</span>
+        <span data-i18n="footer.locale">Marche · Italia</span>
       </div>
     </div>
   </footer>
 
+  <script src="js/i18n.js" defer></script>
   <script src="js/main.js" defer></script>
 </body>
 </html>

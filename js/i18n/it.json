@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "brandShort": "La Voce del Sentino",
+    "brandSmall": "Casa Vacanze · Genga (AN)"
+  },
+  "nav": {
+    "ariaLabel": "Principale",
+    "logoAria": "La Voce del Sentino — home",
+    "home": "Home Page",
+    "house": "La casa",
+    "rooms": "Le camere",
+    "contact": "Contatti",
+    "book": "Prenota",
+    "menuAria": "Apri menu"
+  },
+  "langSwitch": {
+    "groupAria": "Seleziona lingua"
+  },
+  "footer": {
+    "brandSmall": "Casa Vacanze",
+    "tagline": "Un angolo di pace tra relax, acqua e roccia, ai piedi dell'Abbazia di San Vittore.",
+    "explore": "Esplora",
+    "contact": "Contatti",
+    "legal": "Legale",
+    "addressLine1": "60040 Genga (AN)",
+    "addressLine2": "Via San Vittore, 5",
+    "privacy": "Privacy Policy",
+    "locale": "Marche · Italia"
+  },
+  "home": {
+    "meta": {
+      "title": "La Voce del Sentino — Casa Vacanze a Genga, Marche",
+      "description": "Casa vacanze nel cuore delle Marche, a pochi passi dalle Grotte di Frasassi. Un angolo di pace accanto al fiume Sentino, tra relax, acqua e roccia.",
+      "ogTitle": "La Voce del Sentino — Casa Vacanze",
+      "ogDescription": "Un angolo di pace accanto al fiume Sentino, a 10 minuti dalle Grotte di Frasassi."
+    },
+    "hero": {
+      "imgAlt": "La casa tra l'Abbazia di San Vittore e le montagne di Frasassi",
+      "tag": "Genga · Marche · Italia",
+      "title": "La <em>Voce</em> del Sentino<br/>— un angolo di pace.",
+      "whereLabel": "Dove",
+      "whereValue": "San Vittore<br/>delle Chiuse",
+      "walkLabel": "A piedi",
+      "walkValue": "10′ dalle<br/>Grotte di Frasassi",
+      "scroll": "Scorri"
+    },
+    "marquee": {
+      "a": "Grotte di Frasassi",
+      "b": "Tempio del Valadier",
+      "c": "Abbazia di San Vittore",
+      "d": "Fiume Sentino",
+      "e": "Terme di Frasassi",
+      "f": "Gola della Rossa"
+    },
+    "welcome": {
+      "eyebrow": "01 — Benvenuti",
+      "title": "Cari Ospiti, siamo felici di accompagnarVi in questo <em>angolo di pace</em>.",
+      "imgAlt": "L'Abbazia di San Vittore accanto alla casa, con la gola di Frasassi sullo sfondo",
+      "caption": "San Vittore · Genga",
+      "lead": "Abbiamo scelto questo nome perché crediamo che il lusso più grande, oggi, sia ritrovare il ritmo della natura.",
+      "p1": "Il fiume che scorre qui davanti a Voi, il Sentino, non è solo un elemento del paesaggio: è l'instancabile scultore che in un milione di anni ha dato vita alle Grotte di Frasassi.",
+      "p2": "Mettetevi comodi, aprite la finestra e tendete l'orecchio: la sua voce è qui per accompagnare il Vostro riposo, rinfrescare le Vostre giornate e ricordarVI che la meraviglia inizia appena fuori dalla porta di casa.",
+      "p3": "Vi auguriamo un soggiorno indimenticabile tra relax, acqua e roccia."
+    },
+    "pull": {
+      "quote": "« Il lusso più grande, oggi, è <span>ritrovare il ritmo della natura.</span> »"
+    },
+    "legend": {
+      "eyebrow": "02 — La leggenda",
+      "title": "La leggenda del Sentino <em>e la montagna.</em>",
+      "p1": "Si narra che migliaia di anni fa il fiume Sentino si innamorò della grande montagna di roccia che sbarrava il suo cammino.",
+      "p2": "Non potendo scavalcarla decise di sussurrarle la sua melodia. Giorno dopo giorno, cercando un passaggio nel suo cuore di pietra, con la pazienza infinita che solo l'acqua possiede, il fiume trovò la strada verso il buio più profondo.",
+      "p3": "Lì, nel silenzio della terra, l'acqua iniziò a danzare con la roccia formando cattedrali di cristallo, vele bianche e giganti di calcare. Creò così quelle che oggi il mondo chiama <span>«Grotte di Frasassi»</span>."
+    },
+    "gallery": {
+      "eyebrow": "03 — Sguardi",
+      "title": "Acqua e roccia, <em>scritte dal tempo.</em>",
+      "a": "Il ponte romanico di San Vittore delle Chiuse sul fiume Sentino",
+      "b": "Il Foro degli Occhialoni: finestra naturale nella roccia",
+      "c": "La casa con la torre medievale di San Vittore",
+      "d": "Borgo di San Vittore delle Chiuse",
+      "e": "Interno delle Grotte di Frasassi",
+      "f": "Il Tempio del Valadier incastonato nella roccia"
+    },
+    "cta": {
+      "eyebrow": "04 — Soggiorno su misura",
+      "title": "Ogni stagione regala <em>emozioni diverse</em>.",
+      "body": "Scrivici per conoscere il prezzo su misura per il tuo momento speciale. Rispondiamo a ogni richiesta personalmente, con cura.",
+      "btn": "Richiedi disponibilità"
+    }
+  },
+  "house": {
+    "meta": {
+      "title": "La casa — La Voce del Sentino",
+      "description": "La nostra casa vacanze a San Vittore delle Chiuse, borgo medievale di Genga, a 10 minuti a piedi dalle Grotte di Frasassi."
+    },
+    "subhero": {
+      "imgAlt": "La casa vacanze davanti all'Abbazia di San Vittore",
+      "tag": "La casa",
+      "title": "Tra l'abbazia e la gola,<br/><em>dove la pietra incontra l'acqua.</em>"
+    },
+    "intro": {
+      "eyebrow": "Il luogo",
+      "title": "Una porta aperta sulle <em>meraviglie delle Marche</em>.",
+      "lead": "Benvenuti a «La Voce del Sentino»: la nostra casa vacanze è il punto di partenza ideale per esplorare le meraviglie naturali e culturali delle Marche.",
+      "p1": "La struttura si trova a San Vittore delle Chiuse. Un borgo medievale, situato nel comune di Genga (AN), all'ingresso della suggestiva Gola della Rossa e di Frasassi.",
+      "p2": "È celebre per la sua abbazia romanica ed è circondato da un anfiteatro naturale di montagne.",
+      "p3": "Immersa in un contesto tranquillo e panoramico, offre un soggiorno rilassante senza rinunciare alla comodità di essere vicino alle principali attrazioni.",
+      "imgAlt": "La casa vacanze tra l'Abbazia di San Vittore e la gola di Frasassi",
+      "caption": "La casa · San Vittore delle Chiuse"
+    },
+    "attractions": {
+      "eyebrow": "Cosa c'è intorno",
+      "title": "Tutto a <em>portata di passi</em>.",
+      "lead": "Dalle grotte millenarie ai sentieri, dalle terme al tempio nascosto nella roccia: otto esperienze si aprono nel raggio di pochi minuti.",
+      "a": { "name": "Grotte di Frasassi", "distance": "10 minuti a piedi", "alt": "Grotte di Frasassi" },
+      "b": { "name": "Tempio del Valadier", "distance": "a 3 km dalla casa", "alt": "Tempio del Valadier" },
+      "c": { "name": "Abbazia di San Vittore", "distance": "alle spalle della casa vacanze", "alt": "Abbazia di San Vittore" },
+      "d": { "name": "Parco Avventura di Genga", "distance": "di fronte alla struttura", "alt": "Parco Avventura di Genga" },
+      "e": { "name": "Sentieri escursionistici come il Foro degli Occhialoni", "distance": "natura e panorami", "alt": "Foro degli Occhialoni" },
+      "f": { "name": "Fiume Sentino", "distance": "davanti alla casa", "alt": "Fiume Sentino" },
+      "g": { "name": "Sorgenti sulfuree", "distance": "a due passi", "alt": "Sorgenti sulfuree" },
+      "h": { "name": "Terme di Frasassi", "distance": "a 1 minuto", "alt": "Terme di Frasassi" }
+    },
+    "cta": {
+      "eyebrow": "Prenota",
+      "title": "Un soggiorno <em>su misura</em> per voi.",
+      "btn": "Richiedi informazioni"
+    }
+  },
+  "rooms": {
+    "meta": {
+      "title": "Le camere — La Voce del Sentino",
+      "description": "Due camere con bagno privato, ampia cucina, soggiorno e giardino: ogni dettaglio pensato per il tuo soggiorno."
+    },
+    "subhero": {
+      "imgAlt": "Interno della casa: soggiorno con pareti in pietra e soffitto in legno",
+      "tag": "Le camere",
+      "title": "Due camere,<br/><em>mille risvegli sul ponte romanico.</em>"
+    },
+    "intro": {
+      "eyebrow": "Dentro e fuori",
+      "title": "Il comfort di casa,<br/><em>la magia del paesaggio.</em>",
+      "imgAlt": "Soggiorno con pareti in pietra, travi a vista e pavimento in cotto",
+      "p1": "All'interno della nostra struttura troverete un'ampia cucina e un soggiorno spazioso, arredati con tutto il necessario per rendere il vostro soggiorno confortevole e piacevole.",
+      "p2": "All'esterno, un giardino privato vi permetterà di rilassarvi ascoltando la magica voce del Sentino e di ammirare la Gola di Frasassi.",
+      "amenitiesAria": "Servizi della casa",
+      "am1": "Ampia cucina",
+      "am2": "Soggiorno spazioso",
+      "am3": "Giardino privato",
+      "am4": "Vista sulla Gola di Frasassi",
+      "am5": "Due camere",
+      "am6": "Bagno privato in ogni camera"
+    },
+    "two": {
+      "eyebrow": "01 — Le stanze",
+      "title": "Due camere con <em>bagno privato</em>.",
+      "lead": "La nostra struttura dispone di due camere con bagno privato, perfette per garantire comfort e privacy agli ospiti.",
+      "gA": "Vista dalla camera sul Ponte Romanico di San Vittore",
+      "gB": "Scorcio della casa con il ponte romanico e il fiume Sentino",
+      "gC": "Soggiorno con stufa, divano e tavolo vicino alla parete in pietra",
+      "gD": "La torre medievale e il borgo di San Vittore delle Chiuse"
+    },
+    "view": {
+      "eyebrow": "02 — La vista",
+      "title": "Il saluto del mattino <em>arriva dal XI secolo</em>.",
+      "imgAlt": "L'Abbazia di San Vittore in tutta la sua maestà",
+      "caption": "Abbazia di San Vittore",
+      "lead": "Aprire le finestre e trovarsi faccia a faccia con la storia qui è possibile.",
+      "p1": "Dalla camera della nostra casa vacanze, il monumentale Ponte Romanico di San Vittore delle Chiuse è il primo saluto del mattino.",
+      "p2": "Una vista esclusiva che trasforma ogni risveglio in un viaggio nel tempo, tra il mormorio del fiume Sentino e il fascino millenario dell'Abbazia di San Vittore."
+    },
+    "cta": {
+      "eyebrow": "Prenota",
+      "title": "Scopri quando la casa <em>aspetta te</em>.",
+      "btn": "Richiedi disponibilità"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contatti — La Voce del Sentino",
+      "description": "Scrivici per ricevere un preventivo su misura. Casa vacanze La Voce del Sentino, Genga (AN)."
+    },
+    "subhero": {
+      "imgAlt": "Il ponte romanico di San Vittore al tramonto",
+      "tag": "Contatti",
+      "title": "Un <em>preventivo su misura</em><br/>per il vostro momento speciale."
+    },
+    "intro": {
+      "eyebrow": "Info Point",
+      "lead": "Ogni stagione regala emozioni diverse qui a Genga, e anche i nostri soggiorni cambiano con il tempo. Contattateci per scoprire il prezzo su misura per il vostro momento speciale."
+    },
+    "side": {
+      "eyebrow": "Scrivici",
+      "title": "Rispondiamo a ogni<br/>richiesta <em>personalmente</em>.",
+      "phoneLabel": "Telefono",
+      "reservationsLabel": "Prenotazioni",
+      "infoLabel": "Informazioni",
+      "addressLabel": "Indirizzo"
+    },
+    "form": {
+      "ariaLabel": "Modulo di richiesta informazioni",
+      "nameLabel": "Nome e cognome",
+      "emailLabel": "Email",
+      "arrivalLabel": "Arrivo",
+      "departureLabel": "Partenza",
+      "guestsLabel": "Numero ospiti",
+      "guest1": "1 ospite",
+      "guest2": "2 ospiti",
+      "guest3": "3 ospiti",
+      "guest4": "4 ospiti",
+      "messageLabel": "Messaggio",
+      "messagePlaceholder": "Ditemi qualcosa del vostro soggiorno ideale…",
+      "submit": "Invia richiesta",
+      "note": "Inviando questo modulo accettate il trattamento dei dati come descritto nella <a href=\"privacy.html\">Privacy Policy</a>.",
+      "mailSubject": "Richiesta soggiorno",
+      "mailFallbackName": "Ospite",
+      "mailFieldName": "Nome",
+      "mailFieldEmail": "Email",
+      "mailFieldArrival": "Arrivo",
+      "mailFieldDeparture": "Partenza",
+      "mailFieldGuests": "Ospiti"
+    },
+    "map": {
+      "eyebrow": "Come arrivare",
+      "title": "Via San Vittore, 5 — <em>Genga (AN)</em>.",
+      "iframeTitle": "Mappa — La Voce del Sentino"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy — La Voce del Sentino",
+      "description": "Informativa sul trattamento dei dati personali ai sensi del Reg. UE 679/2016."
+    },
+    "eyebrow": "Privacy",
+    "title": "Informativa sul trattamento dei dati personali <em>[articolo 13 del reg. (U.E.) n. 679/2016]</em>",
+    "intro": "Conformemente a quanto previsto dall'art. 13 del Reg. (U.E.) n. 679/2016 del Parlamento europeo e del Consiglio del 27 aprile 2016, relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati - da qui in poi, Reg. (U.E.) - Le forniamo le seguenti informazioni sul trattamento dei Suoi dati personali.",
+    "h_owner": "Dati di contatto del Titolare del trattamento dei Suoi dati personali",
+    "p_owner": "Il Titolare del trattamento è Tironzelli Sabrina, con sede in Via San Vittore, 5 - 60040 Genga (AN) - Codice Fiscale TRNSRN74B56E256E, contattabile all'indirizzo e-mail: informazioni@lavocedelsentino.com - tel. 338 44 30 460.",
+    "p_scope": "La presente Informativa:",
+    "li_scope_1": "si intende resa per il sito www.lavocedelsentino.com (d'ora in avanti: \"Sito\");",
+    "li_scope_2": "costituisce parte integrante del Sito e dei servizi che offriamo;",
+    "li_scope_3": "è resa, ai sensi degli artt. 13 e 14 del Regolamento, a coloro che interagiscono con i servizi del sito, sia mediante la semplice consultazione che mediante l'utilizzo di specifici servizi messi a disposizione tramite il sito.",
+    "h_categories": "Categorie di dati trattati tramite il sito",
+    "p_categories": "Il Sito tratta unicamente dati personali di tipo comune comunicati direttamente dall'interessato o legittimamente reperiti dal Titolare. Le tipologie e le modalità del trattamento dei dati relativi al sito sono di seguito descritte:",
+    "h_nav": "a. Dati di navigazione",
+    "p_nav": "I sistemi informatici e le procedure software preposte al funzionamento del Sito acquisiscono, nel corso del loro normale esercizio, alcuni dati personali la cui trasmissione è implicita nell'uso dei protocolli di comunicazione di Internet. Si tratta di informazioni che non sono raccolte per essere associate a interessati identificati, ma che per loro stessa natura potrebbero, attraverso elaborazioni ed associazioni con dati detenuti da terzi, permettere di identificare gli utenti. In questa categoria di dati rientrano gli indirizzi IP o i nomi a dominio dei computer utilizzati dagli utenti che si connettono al Sito, gli indirizzi in notazione URI (Uniform Resource Identifier) delle risorse richieste, l'orario della richiesta, il metodo utilizzato nel sottoporre la richiesta al server, la dimensione del file ottenuto in risposta, il codice numerico indicante lo stato della risposta data dal server (buon fine, errore, etc.) ed altri parametri relativi al sistema operativo e all'ambiente informatico dell'utente. Questi dati vengono utilizzati al solo fine di ricavare informazioni statistiche anonime sull'uso del Sito per controllarne il corretto funzionamento, per identificare anomalie e/o abusi; in ogni caso vengono cancellati immediatamente dopo l'elaborazione. I dati potrebbero essere utilizzati per l'accertamento di responsabilità in caso di ipotetici reati informatici ai danni del Sito o di terzi.",
+    "h_cookie": "b. Dati raccolti tramite tracciamento (cookie)",
+    "p_cookie": "Il tracciamento avviene tramite codice eseguito all'interno dei siti web sia a livello server (es. servizi, procedure) che a livello client (es. tag, pixel), anche con il supporto di codice installato sul Suo browser (es. cookie). Per quanto riguarda la finalità e la gestione dei consensi relativi ai tracciamenti si rimanda alla specifica sezione \"Cookie Policy\" del nostro sito web.",
+    "h_user": "c. Dati volontariamente forniti dall'utente",
+    "p_user": "Dati volontariamente inseriti nei vari form contenuti all'interno del sito, come, ad esempio una richiesta di informazioni tramite mail, attraverso i quali l'interessato messo in comunicazione con un l'Azienda che potrà fornire assistenza rispondendo in tempo reale alle richieste.",
+    "h_modality": "Modalità di trattamento",
+    "p_modality": "Il Titolare tratterà i dati tramite modalità informatica. Il Titolare NON esegue attività di trattamento con finalità di profilazione né personale né generalizzata. L'Azienda NON adotta processi decisionali automatizzati.",
+    "h_purposes": "Finalità e connesse basi giuridiche dei trattamenti dei dati personali",
+    "p_purposes": "I dati personali saranno trattati in modo lecito, corretto e trasparente per le seguenti finalità:",
+    "li_purpose_1": "Svolgimento attività dell'Azienda. La base giuridica è l'art. 6, par. 1, lett. c) del Regolamento UE 679/2016: il trattamento è necessario per adempiere un obbligo legale al quale è soggetto il titolare del trattamento. Una volta conferiti i dati personali, infatti, il trattamento è invero necessario per adempiere ad obblighi di legge a cui il Titolare è soggetto.",
+    "li_purpose_2": "Adempimento di obblighi contrattuali da parte del Titolare. La base giuridica è l'art. 6, par. 1, lett. b) del Regolamento UE 679/2016: il trattamento è necessario all'esecuzione di un contratto di cui l'interessato è parte.",
+    "li_purpose_3": "Adempimento eventuali obblighi previsti dalle leggi vigenti, da regolamenti o dalla normativa comunitaria, soddisfare richieste provenienti dalle autorità, adempiere ad obblighi fiscali ed amministrativi. La base giuridica è l'art. 6, par. 1, lett. c) del Regolamento: il trattamento è necessario per adempiere un obbligo legale al quale è soggetto il titolare del trattamento. Una volta conferiti i dati personali, infatti, il trattamento è invero necessario per adempiere ad obblighi di legge a cui il Titolare è soggetto.",
+    "li_purpose_4": "Gestione dei sistemi informativi, gestione dei servizi tecnologici, sicurezza del Sito. La base giuridica è l'art. 6.1. lett. f) del Regolamento UE 679/2016: il trattamento di cui alla presente lettera c) è svolto al fine di perseguire il legittimo interesse del Titolare.",
+    "li_purpose_5": "Soddisfare eventuali esigenze difensive. La base giuridica è l'art. 6.1. lett. f) del Regolamento UE 679/2016: il trattamento è svolto al fine di perseguire il legittimo interesse del Titolare.",
+    "h_recipients": "Destinatari dei dati personali",
+    "p_recipients": "I dati personali potranno essere condivisi, per le finalità di cui alla presente Privacy Policy, con:",
+    "li_recipient_1": "persone autorizzate dal Titolare al trattamento dei dati personali ai sensi degli artt. 29 e 2-quaterdecies del Codice (ad es. il personale amministrativo);",
+    "li_recipient_2": "terzi soggetti che, nell'erogazione dei servizi (a titolo esemplificativo: gestione dei sistemi informativi, servizi tecnologici, servizi di assistenza e consulenza in materia contabile, amministrativa, legale, tributaria e finanziaria, manutenzione tecnica, servizi bancari ed assicurativi), agiscono tipicamente in qualità di responsabili del trattamento ai sensi dell'art. 28 del Regolamento. Il Titolare conserva una lista aggiornata dei responsabili del trattamento nominati e ne garantisce la presa visione all'interessato presso la sede sopra indicata o previa richiesta indirizzata ai recapiti sopra indicati;",
+    "li_recipient_3": "soggetti, enti od autorità a cui sia obbligatorio comunicare i tuoi dati personali in forza di disposizioni di legge o di ordini delle autorità.",
+    "p_recipients_def": "Tali soggetti sono, di seguito, collettivamente definiti come \"Destinatari\".",
+    "h_transfers": "Trasferimenti dei dati personali",
+    "p_transfers": "I dati personali sono condivisi con Destinatari che si trovano solo all'interno dell'UE.",
+    "h_rights": "Diritti degli interessati",
+    "p_rights_1": "L'interessato, potrà esercitare i diritti di cui agli artt. 15-22 GDPR e revocare in ogni momento i consensi prestati senza pregiudizio alla liceità del trattamento effettuato prima della revoca.",
+    "p_rights_2": "In particolare, potrà chiedere l'accesso ai propri dati Personali ai sensi dell'art. 15 GDPR, la rettifica ai sensi dell'art. 16 GDPR, la cancellazione degli stessi ai sensi dell'art. 17 GDPR, la limitazione del trattamento nei casi previsti dall'art. 18 del GDPR nonché di ottenere la portabilità dei dati che ti riguardano nei casi previsti dall'art. 20 del GDPR.",
+    "p_rights_3": "L'interessato potrà formulare una richiesta di opposizione al trattamento dei tuoi dati ex art. 21 e 22 del GDPR nella quale dare evidenza delle ragioni che giustifichino l'opposizione: il Titolare si riserva di valutare l'istanza di opposizione, che non verrà accettata in caso di esistenza di motivi legittimi cogenti per procedere al trattamento che prevalgano su interessi, diritti e libertà.",
+    "p_rights_4": "Le richieste vanno rivolte per iscritto al Titolare ai recapiti indicati nella sezione contatti di questa informativa.",
+    "h_complaint": "Reclamo al Garante",
+    "p_complaint": "Qualora l'interessato ritenga che il trattamento dei propri dati personali effettuato dal Titolare avvenga in violazione di quanto previsto dal GDPR, ha il diritto di proporre reclamo al Garante Privacy, come previsto dall'art. 77 del GDPR stesso, o di adire le opportune sedi giudiziarie (art. 79 del GDPR).",
+    "h_retention": "Tempi di conservazione",
+    "p_retention": "I dati saranno conservati per il tempo strettamente necessario a raggiungere le finalità sopra indicate ovverossia per il tempo necessario all'espletamento degli eventuali obblighi fiscali dell'Azienda in relazione ai dati conferiti.",
+    "h_changes": "Modifiche",
+    "p_changes": "Il Titolare si riserva di modificare o semplicemente aggiornare il contenuto della presente Policy, in parte o completamente, anche a causa di variazioni della normativa applicabile. Il Titolare invita quindi a visitare con regolarità questa sezione per prendere cognizione della più recente ed aggiornata versione della Privacy Policy in modo da essere sempre aggiornato sui dati raccolti e sull'uso che ne fa l'Azienda.",
+    "h_contact": "Contatti",
+    "p_contact": "Per esercitare i diritti di cui sopra o per qualunque altra richiesta può scrivere al Titolare del trattamento ai seguenti recapiti: email: informazioni@lavocedelsentino.com - tel. 338 44 30 460."
+  }
+}
