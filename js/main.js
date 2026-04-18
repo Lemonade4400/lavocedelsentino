@@ -51,6 +51,19 @@
   // ---------- Contact form (mailto fallback) ----------
   const form = document.querySelector('[data-contact-form]');
   if (form) {
+    const mailFallback = {
+      mailSubject: 'Richiesta soggiorno',
+      mailFallbackName: 'Ospite',
+      mailFieldName: 'Nome',
+      mailFieldEmail: 'Email',
+      mailFieldArrival: 'Arrivo',
+      mailFieldDeparture: 'Partenza',
+      mailFieldGuests: 'Ospiti'
+    };
+    const mailT = (k) => {
+      const v = window.LVSi18n && window.LVSi18n.t('contact.form.' + k);
+      return typeof v === 'string' && v ? v : mailFallback[k];
+    };
     form.addEventListener('submit', (e) => {
       e.preventDefault();
       const data = new FormData(form);
@@ -60,9 +73,9 @@
       const departure = (data.get('departure') || '').toString().trim();
       const guests = (data.get('guests') || '').toString().trim();
       const message = (data.get('message') || '').toString().trim();
-      const subject = encodeURIComponent(`Richiesta soggiorno — ${name || 'Ospite'}`);
+      const subject = encodeURIComponent(`${mailT('mailSubject')} — ${name || mailT('mailFallbackName')}`);
       const body = encodeURIComponent(
-        `Nome: ${name}\nEmail: ${email}\nArrivo: ${arrival}\nPartenza: ${departure}\nOspiti: ${guests}\n\n${message}`
+        `${mailT('mailFieldName')}: ${name}\n${mailT('mailFieldEmail')}: ${email}\n${mailT('mailFieldArrival')}: ${arrival}\n${mailT('mailFieldDeparture')}: ${departure}\n${mailT('mailFieldGuests')}: ${guests}\n\n${message}`
       );
       window.location.href = `mailto:prenotazioni@lavocedelsentino.com?subject=${subject}&body=${body}`;
     });
